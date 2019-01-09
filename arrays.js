@@ -23,7 +23,21 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 function addElementToBeginningOfArray(chocolateBars, twix) {
   return [twix, ...chocolateBars];
 }
- 
+
+/*  describe('destructivelyAddElementToBeginningOfArray(array, element)', () => {
+    it('adds an element to the beginning of an array', () => {
+      expect(destructivelyAddElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1])
+    })
+
+    it('alters the original array', () => {
+      const array = [1]
+
+      destructivelyAddElementToBeginningOfArray(array, 'foo')
+
+      expect(array).to.eql(['foo', 1])
+    })
+  })*/ 
+  
 function destructivelyAddElementToBeginningOfArray(chocolateBars, twix) {
   chocolateBars.unshift(twix);
   return chocolateBars;

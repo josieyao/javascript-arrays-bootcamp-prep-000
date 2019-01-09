@@ -1,4 +1,12 @@
+/*  describe('chocolateBars', () => {
+    it('is an array containing "snickers", "hundred grand", "kitkat", and "skittles"', () => {
+      expect(chocolateBars).to.eql['snickers', 'hundred grand', 'kitkat', 'skittles']
+    })
+  })*/
+
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
+
+
 
 function addElementToBeginningOfArray(chocolateBars, twix) {
   return [twix, ...chocolateBars];

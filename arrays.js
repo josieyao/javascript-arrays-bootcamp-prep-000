@@ -39,7 +39,7 @@ function addElementToBeginningOfArray(chocolateBars, twix) {
   })*/ 
   
 function destructivelyAddElementToBeginningOfArray(chocolateBars, twix) {
-  chocolateBars.unshift(twix);
+  chocolateBars.unshift("twix");
   return chocolateBars;
 }
 

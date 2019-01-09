@@ -80,9 +80,17 @@ function destructivelyAddElementToEndOfArray(chocolateBars, twix) {
   return chocolateBars;
 }
 
+/*describe('accessElementInArray(array, index)', () => {
+    it('accesses the element in array at the given index', () => {
+      expect(accessElementInArray([1, 2, 3], 2)).to.equal(3)
+    })
+  })*/
+  
 function accessElementInArray(array, index) {
   return array[index];
 }
+
+
  
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   chocolateBars.shift();

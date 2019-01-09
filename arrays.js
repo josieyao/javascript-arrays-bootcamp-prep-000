@@ -43,6 +43,20 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, twix) {
   return chocolateBars;
 }
 
+/*  describe('addElementToEndOfArray(array, element)', () => {
+    it('adds an element to the end of an array', () => {
+      expect(addElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
+    })
+
+    it('does not alter the original array', () => {
+      const array = [1]
+
+      addElementToEndOfArray(array, 'foo')
+
+      expect(array).to.eql([1])
+    })
+  })*/
+  
 function addElementToEndOfArray(chocolateBars, twix) {
   return [...chocolateBars, twix];
 }
